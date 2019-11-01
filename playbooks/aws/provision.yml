@@ -1,0 +1,12 @@
+---
+
+- hosts: localhost
+
+  vars_files:
+    - /home/ec2-user/workspace/k3os-provisioner/vars/aws.yml
+
+  tasks:
+    - import_role:
+       name: provision_aws
+
+

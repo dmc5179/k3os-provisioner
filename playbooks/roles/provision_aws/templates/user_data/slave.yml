@@ -1,0 +1,12 @@
+k3os:
+  datasource: aws
+  data_sources:
+  - aws
+  modules:
+  - kvm
+  - nvme
+  ntp_servers:
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+  server_url: <master server to join>
+  token: <token to join the cluster>

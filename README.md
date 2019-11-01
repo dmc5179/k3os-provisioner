@@ -1,2 +1,2 @@
 # k3os-provisioner
-K3OS AWS Provisioner
+Ansible playbooks to deploy a k3OS cluster
